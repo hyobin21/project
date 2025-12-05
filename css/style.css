@@ -1,0 +1,39 @@
+body {
+    font-family: Pretendard, sans-serif;
+    text-align: center;
+    padding: 40px;
+    background-color: #fdfcf7;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.category-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.category-btn {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    background-color: #ffbe5c;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.category-btn:hover {
+    background-color: #ffa93b;
+    transform: translateY(-3px);
+}
