@@ -72,9 +72,103 @@ const foodDatabase = {
         },
     ],
     "한식": [
-        { name: "김치찌개", store: "백채김치찌개", link: "https://map.naver.com" },
-        { name: "비빔밥", store: "본죽&비빔밥", link: "https://map.naver.com" },
-        { name: "불고기", store: "옛날불고기", link: "https://map.naver.com" },
+        {
+            name: "",
+            store: [
+                {store: "유가네 닭갈비", link: "https://naver.me/xl0A33LT" },
+                {store: "부대통령뚝배기", link: "https://naver.me/IgJGvuYv" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "찌개찌개", link: "https://naver.me/FmfPo6DQ" },
+                {store: "부대통령뚝배기", link: "https://naver.me/IgJGvuYv" },
+                {store: "오늘도부찌", link: "https://naver.me/xmxICYTK" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "교반", link: "https://naver.me/I55aTYjz" },
+                {store: "육회바른연어", link: "https://naver.me/FQVXmVln" },
+                {store: "육앤샤", link: "https://naver.me/FqWtAguc" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "신전떡볶이", link: "https://naver.me/GsjI0tDm" },
+                {store: "참새방앗간", link: "https://naver.me/54Lqgb1S" },
+                {store: "명가떡볶이", link: "https://naver.me/FCAmw3dv" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "현가병천순대장터국밥", link: "https://naver.me/5vcHntbD" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "두루정", link: "https://naver.me/GV2tk6kw" },
+                {store: "91콩삼콩나물삼겹살", link: "https://naver.me/xk1wyi6e" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "두루정", link: "https://naver.me/GV2tk6kw" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "북촌손만두", link: "https://naver.me/5HkHHkR6" },
+                {store: "원조청학칡냉면", link: "https://naver.me/F428yM0e" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "에비수", link: "https://naver.me/GI3J2IH8" },
+                {store: "동양솥밥", link: "https://naver.me/FLyTXrni" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "육앤샤", link: "https://naver.me/FqWtAguc" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "알촌", link: "https://naver.me/FO9zPVpC" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "이서식당", link: "https://naver.me/G58g18j2" },
+                {store: "기찬고기", link: "https://naver.me/xnhL4dST" },
+                {store: "돼지우리", link: "https://naver.me/FUhXlMuo" }
+            ]
+        },
+        { 
+            name: "", 
+            store: [
+                {store: "원조청학칡냉면", link: "https://naver.me/GzEkOGyx" }
+            ]
+        },
+        { 
+            name: "", 
+            store: [
+                {store: "탐나는바지락손칼국수", link: "https://naver.me/FMTOyciD" },
+                {store: "밀숲", link: "https://map.naver.com" }
+            ]
+        },
     ],
     "중식": [
         { name: "짜장면", store: "홍콩반점", link: "https://map.naver.com" },
