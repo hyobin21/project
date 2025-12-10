@@ -15,7 +15,7 @@ const foodDatabase = {
             ]
         },
         { 
-            name: "마라탕",
+            name: "",
             store: [
                 {store: "라화쿵부", link: "https://naver.me/GDaA5ts0" },
                 {store: "홍성마라미방", link: "https://naver.me/G65wNWd2" },
@@ -23,7 +23,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "짜장",
+            name: "",
             store: [
                 {store: "도야짬뽕", link: "https://naver.me/GKUJyNTD" },
                 {store: "북경반점", link: "https://naver.me/FBepBdq3" },
@@ -31,7 +31,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "짬뽕",
+            name: "",
             store: [
                 {store: "도야짬뽕", link: "https://naver.me/GKUJyNTD" },
                 {store: "북경반점", link: "https://naver.me/FBepBdq3" },
@@ -39,7 +39,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "라멘",
+            name: "",
             store: [
                 {store: "코운즈", link: "https://naver.me/Fmf6TDvD" },
                 {store: "핵밥", link: "https://naver.me/FxFE6Hx8" },
@@ -47,7 +47,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "소바",
+            name: "",
             store: [
                 {store: "코운즈", link: "https://naver.me/Fmf6TDvD" },
                 {store: "핵밥", link: "https://naver.me/FxFE6Hx8" },
@@ -55,7 +55,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "파스타",
+            name: "",
             store: [
                 {store: "파앤피파스타하우스", link: "https://naver.me/FY3WucQt" },
                 {store: "성북동경양식", link: "https://naver.me/GRo4lMrI" },
@@ -63,7 +63,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "쌀국수",
+            name: "",
             store: [
                 {store: "남월", link: "https://naver.me/G58gyIQo" },
                 {store: "인더비엣", link: "https://naver.me/xWTn8qZB" },
