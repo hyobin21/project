@@ -171,14 +171,88 @@ const foodDatabase = {
         },
     ],
     "중식": [
-        { name: "짜장면", store: "홍콩반점", link: "https://map.naver.com" },
-        { name: "짬뽕", store: "교동짬뽕", link: "https://map.naver.com" },
-        { name: "탕수육", store: "찹쌀탕수육전문", link: "https://map.naver.com" },
+        { 
+            name: "",
+            store: [
+                {store: "라화쿵부", link: "https://naver.me/GDaA5ts0" },
+                {store: "홍성마라미방", link: "https://naver.me/G65wNWd2" },
+                {store: "탕화쿵푸", link: "https://naver.me/FpxqfxwK" }
+            ]
+        },
+        { 
+            name: "",
+            store: [
+                {store: "라화쿵부", link: "https://naver.me/GDaA5ts0" },
+                {store: "홍성마라미방", link: "https://naver.me/G65wNWd2" },
+                {store: "탕화쿵푸", link: "https://naver.me/FpxqfxwK" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "도야짬뽕", link: "https://naver.me/GKUJyNTD" },
+                {store: "북경반점", link: "https://naver.me/FBepBdq3" },
+                {store: "행복한짬뽕", link: "https://naver.me/GXAfUMZR" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "도야짬뽕", link: "https://naver.me/GKUJyNTD" },
+                {store: "북경반점", link: "https://naver.me/FBepBdq3" },
+                {store: "행복한짬뽕", link: "https://naver.me/GXAfUMZR" }
+            ]
+        },
     ],
     "일식": [
-        { name: "초밥", store: "은행골", link: "https://map.naver.com" },
-        { name: "돈까스", store: "연돈", link: "https://map.naver.com" },
-        { name: "라멘", store: "아오리라멘", link: "https://map.naver.com" },
+        {
+            name: "",
+            store: [
+                {store: "은화수식당", link: "https://naver.me/GtURnCbu" },
+                {store: "자이카", link: "https://naver.me/xbA5ILvA" },
+                {store: "핵밥", link: "https://naver.me/FxFE6Hx8" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "육회바른연어", link: "https://naver.me/FQVXmVln" },
+                {store: "앤의식탁", link: "https://naver.me/GXAaZKNY" },
+                {store: "면식당", link: "https://naver.me/5bVsYxjg" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "코운즈", link: "https://naver.me/Fmf6TDvD" },
+                {store: "오빈라멘", link: "https://naver.me/GDaRddHT" },
+                {store: "면식당", link: "https://naver.me/5bVsYxjg" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "코운즈", link: "https://naver.me/Fmf6TDvD" },
+                {store: "백소정", link: "https://naver.me/56R6f48f" },
+                {store: "면식당", link: "https://naver.me/5bVsYxjg" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "코운즈", link: "https://naver.me/Fmf6TDvD" },
+                {store: "백소정", link: "https://naver.me/56R6f48f" },
+                {store: "면식당", link: "https://naver.me/5bVsYxjg" }
+            ]
+        },
+         {
+            name: "",
+            store: [
+                {store: "육회바른연어", link: "https://naver.me/FQVXmVln" },
+                {store: "에비수", link: "https://naver.me/GI3J2IH8" },
+                {store: "정직유부", link: "https://naver.me/FEUamHPI" }
+            ]
+        },
     ],
     "양식": [
         { name: "스테이크", store: "아웃백", link: "https://map.naver.com" },
