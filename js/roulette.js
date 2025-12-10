@@ -42,16 +42,15 @@ spinBtn.onclick = function() {
 
     // 5초 후 결과 계산 및 이동
     setTimeout(() => {
-        // 회전 각도를 계산하여 선택된 아이템 찾기
-        // (간단하게 랜덤으로 선택된 아이템을 다음 페이지로 넘깁니다)
-        // 실제 각도 계산이 복잡할 수 있으므로, 데이터 중 하나를 랜덤 확정하여 넘기는 것이 구현상 안전함
-        const selectedFood = menuList[Math.floor(Math.random() * menuList.length)];
-        
-        localStorage.setItem('resultFood', JSON.stringify(selectedFood));
-        
-        // 폭죽 효과는 다음 페이지 넘어가면서 혹은 여기서 간단한 alert 대신 바로 이동
-        location.href = 'result.html';
-    }, rotateTime * 1000);
-};
+    const selectedFood = menuList[Math.floor(Math.random() * menuList.length)];
+    
+    localStorage.setItem('resultFood', JSON.stringify({
+        name: selectedFood.name,
+        stores: selectedFood.store
+    }));
+    
+    location.href = 'result.html';
+}, rotateTime * 1000);
+}
 
 drawRoulette();
