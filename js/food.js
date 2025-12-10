@@ -245,7 +245,7 @@ const foodDatabase = {
                 {store: "면식당", link: "https://naver.me/5bVsYxjg" }
             ]
         },
-         {
+        {
             name: "",
             store: [
                 {store: "육회바른연어", link: "https://naver.me/FQVXmVln" },
@@ -255,9 +255,42 @@ const foodDatabase = {
         },
     ],
     "양식": [
-        { name: "스테이크", store: "아웃백", link: "https://map.naver.com" },
-        { name: "피자", store: "도미노피자", link: "https://map.naver.com" },
-        { name: "리조또", store: "서가앤쿡", link: "https://map.naver.com" },
+        {
+            name: "",
+            store: [
+                {store: "써브웨이", link: "https://naver.me/Fy23fl1z" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "이삭토스트", link: "https://naver.me/5fIlRYfm" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "파앤피파스타하우스", link: "https://naver.me/FY3WucQt" },
+                {store: "성북동경양식", link: "https://naver.me/GRo4lMrI" },
+                {store: "언니네화덕핏짜", link: "https://naver.me/x2jQ1Kyt" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "파앤피파스타하우스", link: "https://naver.me/FY3WucQt" },
+                {store: "성북동경양식", link: "https://naver.me/GRo4lMrI" },
+                {store: "언니네화덕핏짜", link: "https://naver.me/x2jQ1Kyt" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "파앤피파스타하우스", link: "https://naver.me/FY3WucQt" },
+                {store: "성북동경양식", link: "https://naver.me/GRo4lMrI" },
+                {store: "양식당", link: "https://naver.me/xMjDZzrR" }
+            ]
+        },
     ],
     "패스트푸드": [
         { name: "햄버거", store: "버거킹", link: "https://map.naver.com" },
