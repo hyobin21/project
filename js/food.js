@@ -333,7 +333,35 @@ const foodDatabase = {
         },
     ],
     "카페/디저트": [
-        { name: "아메리카노", store: "스타벅스", link: "https://map.naver.com" },
-        { name: "마카롱", store: "마리웨일", link: "https://map.naver.com" },
+        {
+            name: "",
+            store: [
+                {store: "한양베이커리", link: "https://naver.me/xhlmeH19" },
+                {store: "프로스콘스", link: "https://naver.me/GctEQT2E" },
+                {store: "이경순베이커리", link: "https://naver.me/x8tnAVsY" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "코지홀리데이", link: "https://naver.me/G65JIhid" },
+                {store: "신디도넛", link: "https://naver.me/GrmaGVxO" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "요거프레소", link: "https://naver.me/GctwR0fv" },
+                {store: "썬더커피", link: "https://naver.me/GBvLcl3S" },
+                {store: "UP플레이스", link: "https://naver.me/GgWk159w" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "요거프레소", link: "https://naver.me/GctwR0fv" },
+                {store: "모모커피", link: "https://naver.me/Gubs6BYh" }
+            ]
+        },
     ]
 };
