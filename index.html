@@ -2,26 +2,70 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>점메추 - 카테고리 선택</title>
+    <title>점메추 - 시작</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* 화면 전환을 위한 스타일 */
+        #step1-selection {
+            display: none; /* 처음엔 숨김 */
+        }
+        
+        /* 인트로 전용 타이틀 애니메이션 */
+        .intro-emoji {
+            font-size: 6rem;
+            display: block;
+            margin-bottom: 20px;
+            animation: bounce 2s infinite;
+        }
+
+        .intro-text {
+            font-size: 2.5rem;
+            color: #777;
+            margin-bottom: 40px;
+        }
+
+        /* 둥둥 떠다니는 애니메이션 */
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        
+        <div id="intro-screen">
+            <span class="intro-emoji">🍚🥄🥢</span>
+            <h1>점메추</h1>
+            <p class="intro-text">점심 메뉴를 골라볼까요?</p>
+            <button class="btn blue" onclick="goToStep1()">START! 🚀</button>
+        </div>
 
-    <h1>점메추 🍱</h1>
-    <p>오늘 점심 뭐 먹지?</p>
+        <div id="step1-selection">
+            <h1>오늘은 어떤 식사를 원하세요?</h1>
+            <div class="btn-group">
+                <button class="btn blue" onclick="selectMealType('main')">🍚 메인 식사</button>
+                <button class="btn pink" onclick="selectMealType('simple')">🥪 간편 식사</button>
+            </div>
+        </div>
 
-    <div class="category-container">
-        <button class="category-btn" data-category="noodle">면</button>
-        <button class="category-btn" data-category="korean">한식</button>
-        <button class="category-btn" data-category="chinese">중식</button>
-        <button class="category-btn" data-category="japanese">일식</button>
-        <button class="category-btn" data-category="western">양식</button>
-        <button class="category-btn" data-category="cafe">카페</button>
-        <button class="category-btn" data-category="chickenpizza">치킨·피자</button>
-        <button class="category-btn" data-category="meat">고기</button>
     </div>
 
-    <script src="js/category.js"></script>
+    <script>
+        // 인트로에서 다음 화면으로 넘가는 함수
+        function goToStep1() {
+            const intro = document.getElementById('intro-screen');
+            const step1 = document.getElementById('step1-selection');
+
+            intro.style.display = 'none'; // 인트로 숨김
+            step1.style.display = 'block'; // 선택 화면 보임
+        }
+
+        // 기존 기능: 타입을 저장하고 카테고리 페이지로 이동
+        function selectMealType(type) {
+            localStorage.setItem('mealType', type);
+            location.href = 'category.html';
+        }
+    </script>
 </body>
 </html>

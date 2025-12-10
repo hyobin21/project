@@ -2,28 +2,21 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>점메추 - 추천 룰렛</title>
+    <title>점메추 - 룰렛</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/roulette.css">
 </head>
 <body>
-
-    <h2>룰렛을 돌려서 음식을 선택해볼까요?</h2>
-
-    <div class="roulette-container">
-        <div id="roulette-wheel">
-            <div class="slice">1</div>
-            <div class="slice">2</div>
-            <div class="slice">3</div>
-            <div class="slice">4</div>
-            <div class="slice">5</div>
-            <div class="slice">6</div>
+    <div class="container">
+        <h1 id="title">무엇을 먹을까요?</h1>
+        <div class="roulette-wrapper">
+            <canvas id="rouletteCanvas" width="500" height="500"></canvas>
+            <div class="arrow">▼</div>
         </div>
+        <button id="spinBtn" class="btn blue">룰렛 돌리기! (Click)</button>
     </div>
 
-    <button id="spin-btn">🎯 돌리기</button>
-
+    <script src="js/food.js"></script>
     <script src="js/roulette.js"></script>
 </body>
 </html>

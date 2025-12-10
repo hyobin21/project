@@ -1,9 +1,0 @@
-{
-    "korean": [
-        { "name": "김치찌개", "store": "OO식당", "link": "https://example.com" },
-        { "name": "비빔밥", "store": "OO분식", "link": "https://example.com" }
-    ],
-    "japanese": [
-        { "name": "초밥", "store": "스시집", "link": "https://example.com" }
-    ]
-}

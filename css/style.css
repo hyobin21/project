@@ -1,39 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Pretendard, sans-serif;
+    font-family: 'Jua', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #fdf6ec;
+    /* 배경 패턴: 귀엽고 꽉 찬 느낌 */
+    background-image: radial-gradient(#FFB7B2 20%, transparent 20%), radial-gradient(#B5EAD7 20%, transparent 20%);
+    background-position: 0 0, 50px 50px;
+    background-size: 100px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 40px;
-    background-color: #fdfcf7;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.95); /* 투명도 살짝 낮춰서 내용 더 잘 보이게 */
+    padding: 3rem 5rem;
+    border-radius: 40px; /* 더 둥글게 */
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    width: 85%;
+    max-width: 1400px; /* 컴퓨터 화면 꽉 차게 */
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
-    font-size: 32px;
-    margin-bottom: 10px;
+    font-size: 5rem; /* 제목 더 크게 */
+    color: #555;
+    margin-bottom: 1.5rem;
+    text-shadow: 3px 3px 0px #eee; /* 입체감 추가 */
 }
 
 p {
-    font-size: 18px;
-    margin-bottom: 30px;
+    font-size: 1.8rem;
+    color: #666;
 }
 
-.category-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-    max-width: 300px;
-    margin: auto;
+.btn-group {
+    display: flex;
+    gap: 40px; /* 버튼 사이 간격 넓힘 */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
 }
 
-.category-btn {
-    padding: 15px;
-    font-size: 16px;
+.btn {
+    padding: 1.8rem 4rem; /* 버튼 더 큼직하게 */
+    font-size: 2.2rem;
     border: none;
-    border-radius: 12px;
-    background-color: #ffbe5c;
+    border-radius: 50px; /* 완전 둥근 버튼 */
     cursor: pointer;
-    transition: 0.2s;
+    transition: all 0.3s ease;
+    font-family: 'Jua', sans-serif;
+    color: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-.category-btn:hover {
-    background-color: #ffa93b;
-    transform: translateY(-3px);
+.btn:hover {
+    transform: translateY(-5px) scale(1.05); /* 마우스 올리면 살짝 떠오름 */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
+
+/* 색상 테마 */
+.blue { background-color: #A0C4FF; }
+.pink { background-color: #FFB7B2; }
+.green { background-color: #B5EAD7; }
+.yellow { background-color: #Fdd081; color: #ffffff; }
+.purple { background-color: #C7CEEA; }

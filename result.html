@@ -2,21 +2,88 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>점메추 - 추천 결과</title>
+    <title>점메추 - 결과</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* 결과 페이지 전용 스타일 */
+        .result-container {
+            animation: popUp 0.8s ease-out;
+        }
+        .food-name {
+            font-size: 5rem;
+            color: #FF6B6B;
+            margin: 20px 0;
+        }
+        .store-name {
+            font-size: 3rem;
+            color: #4ECDC4;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .store-name:hover {
+            color: #2c3e50;
+        }
+        /* 폭죽 효과 (간단 CSS 애니메이션) */
+        @keyframes popUp {
+            0% { transform: scale(0); opacity: 0; }
+            70% { transform: scale(1.1); }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        /* 컨페티(폭죽) 파티클 */
+        .confetti {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: #f00;
+            animation: fall linear forwards;
+        }
+    </style>
 </head>
 <body>
+    <div id="confetti-container"></div>
 
-    <h2>오늘 점심은 이걸로!</h2>
-
-    <div id="result-box">
-        <p id="food-name">음식을 불러오는 중...</p>
-        <p id="store-name">추천 매장 확인 중...</p>
+    <div class="container result-container">
+        <h1>맛점하세요~!</h1>
+        <div id="foodName" class="food-name">음식 이름</div>
+        <div id="storeName" class="store-name">추천 가게 이름</div>
+        <p style="margin-top: 20px; color: #888;">(가게 이름을 클릭하면 지도로 이동합니다)</p>
+        
+        <button class="btn blue" style="margin-top: 50px;" onclick="location.href='index.html'">처음으로</button>
     </div>
 
-    <button onclick="location.href='index.html'">다시 선택하기</button>
+    <script>
+        // 데이터 불러오기
+        const result = JSON.parse(localStorage.getItem('resultFood'));
+        
+        if(result) {
+            document.getElementById('foodName').innerText = result.name;
+            const storeEl = document.getElementById('storeName');
+            storeEl.innerText = result.store;
+            storeEl.onclick = function() {
+                window.open(result.link, '_blank');
+            };
+        }
 
-    <script src="js/store.js"></script>
+        // 간단한 폭죽 스크립트
+        const colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff'];
+        for(let i=0; i<100; i++) {
+            const confetti = document.createElement('div');
+            confetti.classList.add('confetti');
+            confetti.style.left = Math.random() * 100 + 'vw';
+            confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+            confetti.style.animationDuration = (Math.random() * 3 + 2) + 's';
+            confetti.style.top = -10 + 'px';
+            document.body.appendChild(confetti);
+        }
+        
+        // CSS에 fall 애니메이션 정의 추가
+        const styleSheet = document.createElement("style");
+        styleSheet.innerText = `
+            @keyframes fall {
+                to { transform: translateY(100vh) rotate(720deg); }
+            }
+        `;
+        document.head.appendChild(styleSheet);
+    </script>
 </body>
 </html>
