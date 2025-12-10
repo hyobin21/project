@@ -293,8 +293,44 @@ const foodDatabase = {
         },
     ],
     "패스트푸드": [
-        { name: "햄버거", store: "버거킹", link: "https://map.naver.com" },
-        { name: "치킨", store: "KFC", link: "https://map.naver.com" },
+        {
+            name: "",
+            store: [
+                {store: "미쳐버린 파닭", link: "https://naver.me/GctJL1aw" },
+                {store: "더치킨", link: "https://naver.me/FsRZ7VMn" },
+                {store: "계림원", link: "https://naver.me/GalkO5I1" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "파앤피파스타하우스", link: "https://naver.me/FY3WucQt" },
+                {store: "언니네화덕핏짜", link: "https://naver.me/x2jQ1Kyt" },
+                {store: "페퍼로니버튼", link: "https://naver.me/FK5v8G4z" }
+            ]
+        },
+        { 
+            name: "", 
+            store: [
+                {store: "바비든든", link: "https://naver.me/5FEecQDm" },
+                {store: "토마토도시락", link: "https://naver.me/5MVLxcth" }
+            ]
+        },
+        { 
+            name: "", 
+            store: [
+                {store: "도스마스", link: "https://naver.me/xZVb8ZIF" },
+                {store: "밀플랜비", link: "https://naver.me/FBeXgno5" }
+            ]
+        },
+        {
+            name: "",
+            store: [
+                {store: "뉴욕버거", link: "https://naver.me/5Kb3fIow" },
+                {store: "토핑스온패티스", link: "https://naver.me/xq3arkmq" },
+                {store: "봉구스밥버거", link: "https://naver.me/xprE8vO3" }
+            ]
+        },
     ],
     "카페/디저트": [
         { name: "아메리카노", store: "스타벅스", link: "https://map.naver.com" },
