@@ -2,13 +2,13 @@
 const foodDatabase = {
     "면": [
         { 
-            name: "냉면", 
+            name: "", 
             store: [
                 {store: "원조청학칡냉면", link: "https://naver.me/GzEkOGyx" }
             ]
         },
         { 
-            name: "칼국수", 
+            name: "", 
             store: [
                 {store: "탐나는바지락손칼국수", link: "https://naver.me/FMTOyciD" },
                 {store: "밀숲", link: "https://map.naver.com" }
