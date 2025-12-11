@@ -334,7 +334,7 @@ const foodDatabase = {
     ],
     "카페/디저트": [
         {
-            name: "",
+            name: "빵",
             store: [
                 {store: "한양베이커리", link: "https://naver.me/xhlmeH19" },
                 {store: "프로스콘스", link: "https://naver.me/GctEQT2E" },
@@ -342,14 +342,14 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "쿠키",
             store: [
                 {store: "코지홀리데이", link: "https://naver.me/G65JIhid" },
                 {store: "신디도넛", link: "https://naver.me/GrmaGVxO" }
             ]
         },
         {
-            name: "",
+            name: "빙수",
             store: [
                 {store: "요거프레소", link: "https://naver.me/GctwR0fv" },
                 {store: "썬더커피", link: "https://naver.me/GBvLcl3S" },
@@ -357,7 +357,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "아이스크림",
             store: [
                 {store: "요거프레소", link: "https://naver.me/GctwR0fv" },
                 {store: "모모커피", link: "https://naver.me/Gubs6BYh" }
