@@ -73,14 +73,14 @@ const foodDatabase = {
     ],
     "한식": [
         {
-            name: "",
+            name: "닭갈비",
             store: [
                 {store: "유가네 닭갈비", link: "https://naver.me/xl0A33LT" },
                 {store: "부대통령뚝배기", link: "https://naver.me/IgJGvuYv" }
             ]
         },
         {
-            name: "",
+            name: "찌개/탕",
             store: [
                 {store: "찌개찌개", link: "https://naver.me/FmfPo6DQ" },
                 {store: "부대통령뚝배기", link: "https://naver.me/IgJGvuYv" },
@@ -88,7 +88,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "비빔밥",
             store: [
                 {store: "교반", link: "https://naver.me/I55aTYjz" },
                 {store: "육회바른연어", link: "https://naver.me/FQVXmVln" },
@@ -96,7 +96,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "떡볶이",
             store: [
                 {store: "신전떡볶이", link: "https://naver.me/GsjI0tDm" },
                 {store: "참새방앗간", link: "https://naver.me/54Lqgb1S" },
@@ -104,52 +104,52 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "순대",
             store: [
                 {store: "현가병천순대장터국밥", link: "https://naver.me/5vcHntbD" }
             ]
         },
         {
-            name: "",
+            name: "두루치기",
             store: [
                 {store: "두루정", link: "https://naver.me/GV2tk6kw" },
                 {store: "91콩삼콩나물삼겹살", link: "https://naver.me/xk1wyi6e" }
             ]
         },
         {
-            name: "",
+            name: "짜글이",
             store: [
                 {store: "두루정", link: "https://naver.me/GV2tk6kw" }
             ]
         },
         {
-            name: "",
+            name: "만두",
             store: [
                 {store: "북촌손만두", link: "https://naver.me/5HkHHkR6" },
                 {store: "원조청학칡냉면", link: "https://naver.me/F428yM0e" }
             ]
         },
         {
-            name: "",
+            name: "솥밥",
             store: [
                 {store: "에비수", link: "https://naver.me/GI3J2IH8" },
                 {store: "동양솥밥", link: "https://naver.me/FLyTXrni" }
             ]
         },
         {
-            name: "",
+            name: "샤브샤브",
             store: [
                 {store: "육앤샤", link: "https://naver.me/FqWtAguc" }
             ]
         },
         {
-            name: "",
+            name: "알밥",
             store: [
                 {store: "알촌", link: "https://naver.me/FO9zPVpC" }
             ]
         },
         {
-            name: "",
+            name: "구이",
             store: [
                 {store: "이서식당", link: "https://naver.me/G58g18j2" },
                 {store: "기찬고기", link: "https://naver.me/xnhL4dST" },
@@ -157,13 +157,13 @@ const foodDatabase = {
             ]
         },
         { 
-            name: "", 
+            name: "냉면", 
             store: [
                 {store: "원조청학칡냉면", link: "https://naver.me/GzEkOGyx" }
             ]
         },
         { 
-            name: "", 
+            name: "칼국수", 
             store: [
                 {store: "탐나는바지락손칼국수", link: "https://naver.me/FMTOyciD" },
                 {store: "밀숲", link: "https://map.naver.com" }
