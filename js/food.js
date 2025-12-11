@@ -294,7 +294,7 @@ const foodDatabase = {
     ],
     "패스트푸드": [
         {
-            name: "",
+            name: "치킨",
             store: [
                 {store: "미쳐버린 파닭", link: "https://naver.me/GctJL1aw" },
                 {store: "더치킨", link: "https://naver.me/FsRZ7VMn" },
@@ -302,7 +302,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "피자",
             store: [
                 {store: "파앤피파스타하우스", link: "https://naver.me/FY3WucQt" },
                 {store: "언니네화덕핏짜", link: "https://naver.me/x2jQ1Kyt" },
@@ -310,21 +310,21 @@ const foodDatabase = {
             ]
         },
         { 
-            name: "", 
+            name: "컵밥", 
             store: [
                 {store: "바비든든", link: "https://naver.me/5FEecQDm" },
                 {store: "토마토도시락", link: "https://naver.me/5MVLxcth" }
             ]
         },
         { 
-            name: "", 
+            name: "부리또", 
             store: [
                 {store: "도스마스", link: "https://naver.me/xZVb8ZIF" },
                 {store: "밀플랜비", link: "https://naver.me/FBeXgno5" }
             ]
         },
         {
-            name: "",
+            name: "햄버거",
             store: [
                 {store: "뉴욕버거", link: "https://naver.me/5Kb3fIow" },
                 {store: "토핑스온패티스", link: "https://naver.me/xq3arkmq" },
