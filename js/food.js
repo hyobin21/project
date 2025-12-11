@@ -2,20 +2,20 @@
 const foodDatabase = {
     "면": [
         { 
-            name: "", 
+            name: "냉면", 
             store: [
                 {store: "원조청학칡냉면", link: "https://naver.me/GzEkOGyx" }
             ]
         },
         { 
-            name: "", 
+            name: "칼국수", 
             store: [
                 {store: "탐나는바지락손칼국수", link: "https://naver.me/FMTOyciD" },
                 {store: "밀숲", link: "https://map.naver.com" }
             ]
         },
         { 
-            name: "",
+            name: "마라탕",
             store: [
                 {store: "라화쿵부", link: "https://naver.me/GDaA5ts0" },
                 {store: "홍성마라미방", link: "https://naver.me/G65wNWd2" },
@@ -23,7 +23,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "짬뽕",
             store: [
                 {store: "도야짬뽕", link: "https://naver.me/GKUJyNTD" },
                 {store: "북경반점", link: "https://naver.me/FBepBdq3" },
@@ -31,7 +31,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "짜장",
             store: [
                 {store: "도야짬뽕", link: "https://naver.me/GKUJyNTD" },
                 {store: "북경반점", link: "https://naver.me/FBepBdq3" },
@@ -39,7 +39,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "라멘",
             store: [
                 {store: "코운즈", link: "https://naver.me/Fmf6TDvD" },
                 {store: "핵밥", link: "https://naver.me/FxFE6Hx8" },
@@ -47,7 +47,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "소바",
             store: [
                 {store: "코운즈", link: "https://naver.me/Fmf6TDvD" },
                 {store: "핵밥", link: "https://naver.me/FxFE6Hx8" },
@@ -55,7 +55,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "파스타",
             store: [
                 {store: "파앤피파스타하우스", link: "https://naver.me/FY3WucQt" },
                 {store: "성북동경양식", link: "https://naver.me/GRo4lMrI" },
@@ -63,7 +63,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "쌀국수",
             store: [
                 {store: "남월", link: "https://naver.me/G58gyIQo" },
                 {store: "인더비엣", link: "https://naver.me/xWTn8qZB" },
