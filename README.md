@@ -10,7 +10,7 @@
 ---
 <br/>
 
-## 👥 Developers (Team ERICA)
+## 👥 Developers (Team Jeommechu)
 "우리가 쓰려고 우리가 직접 만들었습니다."
 
 | 이름 (Name) | 역할 (Role) | 이메일 (Contact) |
