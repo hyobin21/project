@@ -364,7 +364,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "커피",
             store: [
                 {store: "블루포트", link: "https://naver.me/GalEiPGg" },
                 {store: "스타벅스", link: "https://naver.me/xv3eJ4Ct" },
@@ -372,7 +372,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "논커피",
             store: [
                 {store: "블루포트", link: "https://naver.me/GalEiPGg" },
                 {store: "코이노커피", link: "https://naver.me/GRoqYru9" },
@@ -380,7 +380,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "티",
             store: [
                 {store: "시저커피", link: "https://naver.me/xdphr46M" },
                 {store: "오토르테", link: "https://naver.me/FafEPhrw" },
@@ -388,7 +388,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "주스",
             store: [
                 {store: "코지홀리데이", link: "https://naver.me/G65JIhid" },
                 {store: "쥬씨", link: "https://naver.me/xRhG9cqV" },
@@ -396,7 +396,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "스무디",
             store: [
                 {store: "썬더커피", link: "https://naver.me/xxFRiaXL" },
                 {store: "메가MGC커피", link: "https://naver.me/xOxXSo8G" },
@@ -404,7 +404,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "에이드",
             store: [
                 {store: "썬더커피", link: "https://naver.me/xxFRiaXL" },
                 {store: "메가MGC커피", link: "https://naver.me/xOxXSo8G" },
@@ -412,7 +412,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "버블티",
             store: [
                 {store: "아마스빈", link: "https://naver.me/xMnmhzXY" },
                 {store: "모모커피", link: "https://naver.me/Gubs6BYh" },
