@@ -256,19 +256,19 @@ const foodDatabase = {
     ],
     "양식": [
         {
-            name: "",
+            name: "샌드위치",
             store: [
                 {store: "써브웨이", link: "https://naver.me/Fy23fl1z" }
             ]
         },
         {
-            name: "",
+            name: "토스트",
             store: [
                 {store: "이삭토스트", link: "https://naver.me/5fIlRYfm" }
             ]
         },
         {
-            name: "",
+            name: "파스타",
             store: [
                 {store: "파앤피파스타하우스", link: "https://naver.me/FY3WucQt" },
                 {store: "성북동경양식", link: "https://naver.me/GRo4lMrI" },
@@ -276,7 +276,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "리조또",
             store: [
                 {store: "파앤피파스타하우스", link: "https://naver.me/FY3WucQt" },
                 {store: "성북동경양식", link: "https://naver.me/GRo4lMrI" },
@@ -284,7 +284,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "필라프",
             store: [
                 {store: "파앤피파스타하우스", link: "https://naver.me/FY3WucQt" },
                 {store: "성북동경양식", link: "https://naver.me/GRo4lMrI" },
