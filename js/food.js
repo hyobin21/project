@@ -206,7 +206,7 @@ const foodDatabase = {
     ],
     "일식": [
         {
-            name: "",
+            name: "카레",
             store: [
                 {store: "은화수식당", link: "https://naver.me/GtURnCbu" },
                 {store: "자이카", link: "https://naver.me/xbA5ILvA" },
@@ -214,7 +214,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "덮밥",
             store: [
                 {store: "육회바른연어", link: "https://naver.me/FQVXmVln" },
                 {store: "앤의식탁", link: "https://naver.me/GXAaZKNY" },
@@ -222,7 +222,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "라멘",
             store: [
                 {store: "코운즈", link: "https://naver.me/Fmf6TDvD" },
                 {store: "오빈라멘", link: "https://naver.me/GDaRddHT" },
@@ -230,7 +230,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "돈카츠",
             store: [
                 {store: "코운즈", link: "https://naver.me/Fmf6TDvD" },
                 {store: "백소정", link: "https://naver.me/56R6f48f" },
@@ -238,7 +238,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "소바",
             store: [
                 {store: "코운즈", link: "https://naver.me/Fmf6TDvD" },
                 {store: "백소정", link: "https://naver.me/56R6f48f" },
@@ -246,7 +246,7 @@ const foodDatabase = {
             ]
         },
         {
-            name: "",
+            name: "초밥",
             store: [
                 {store: "육회바른연어", link: "https://naver.me/FQVXmVln" },
                 {store: "에비수", link: "https://naver.me/GI3J2IH8" },
